@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Johanis Francoise</title>
+</head>
+<body>
+    <header>
+            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+    </header>
+
+    <main>
+        <section class="book">
+            <!-- 10 Pages avec texte -->
+            <article class="page" id="page1">
+                <h2>Johanis FRANCOISE</h2>
+                <h3>Mon portfolio</h3>
+            </article>
+
+            <article class="page" id="page2">
+                <h2>Sommaire</h2>
+                <nav>
+                    <ul>
+                        <li>Sommaire</a></li>
+                        <li>Mon parcours</a></li>
+                        <li>A propos</a></li>
+                        <li>Mes compétences</a></li>
+                        <li>Mes projets</a></li>
+                        <li>Mes réseaux</a></li>
+                        <li>Me contacter</a></li>
+                    </ul>
+                </nav>
+                
+            </article>
+
+            <article class="page" id="page3">
+                <h2>A propos</h2>
+                <p>Je m'appelle Johanis, je suis en formation pour devenir développeur web Junior. 
+                    Sérieux et appréciant le travail en équipe, je souhaite me professionnaliser dans ce domaine en rejoignant vos équipes, et participer à la création de vos différents projets.</p>
+                <button class="dl-cv"><a class="cv"  target="_blank" href="img/cv2.pdf" >Télécharger mon CV</a></button>	
+            </article>
+
+            <article class="page" id="page4">
+                <h2>Mon parcours</h2>
+                <div class="parcours1">
+                    <div class="parcours">
+        
+                    <h3>Ecole de la deuxieme chance</h3>
+                    <h4>OCT 2020 - MAR 2021</h4>
+                    <h5>95130, Franconville, Val d'Oise</h5>
+                    <p> Apprentissage digital</p>
+        
+                    
+                    </div>
+                    <div class="parcours">
+            
+                        <h3>Doranco</h3>
+                        <h4>MAR 2021 - SEP 2021</h4>
+                        <h5>Distanciel</h5>
+                        <p> Développeur web et web mobile</p>
+                    </div>
+            
+                    <div class="parcours">
+            
+                        <h3>Handigital</h3>
+                        <h4>SEP 2023 - FEV 2024</h4>
+                        <h5>38180, Seyssins, Isère</h5>
+                        <p> Développeur / intégrateur Unity Unreal</p>
+                    </div>
+            
+                    <div class="parcours">
+            
+                        <h3>LePoleS</h3>
+                        <h4>JUN 2023 - EN COURS</h4>
+                        <h5>0000, Gonesse, Val d'Oise</h5>
+                        <p> Développeur / intégrateur Web et Web mobile</p>
+                    </div>
+                </div>
+            </article>
+            <article class="page" id="page5">
+                 <h2>Mes compétences</h2>
+                 <div class="logo">
+                    <img src="img/html-5.png" alt="Logo Html" class="logo">
+                    <img src="img/css-3.png" alt="Logo css" class="logo">
+                    <img src="img/php.png" alt="Logo php" class="logo">
+                    <img src="img/javascript.png" alt="Logo javascript" class="logo">
+                    <img src="img/wordpress.png" alt="Logo worpress" class="logo">
+                    <img src="img/python.svg" alt="Logo python" class="logo">
+                    <img src="img/csharp.svg" alt="Logo C-sharp" class="logo">
+                    <img src="img/unity.png" alt="Logo unity" class="logo">
+                </div>
+            </article>
+            <article class="page" id="page6">
+                <h2>Mes Projets</h2>
+            </article>
+            <article class="page contacter" id="page7">
+                    <h2 class="title">Me Contacter</h2>
+            
+                    <article>
+                        <div class="contact-form">
+                            <form id="contactForm">
+                                <label for="name">Nom :</label>
+                                <input type="text" id="name" name="name" required>
+                    
+                                <label for="email">Email :</label>
+                                <input type="email" id="email" name="email" required>
+                    
+                                <label for="message">Message :</label>
+                                <textarea id="message" name="message" required></textarea>
+                    
+                                <button type="submit">Envoyer</button>
+                            </form>
+                        </div>
+                    
+                        <!-- Lien vers la librairie EmailJS -->
+                        <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                    </article>
+            </article>
+            <article class="page" id="page8">
+                <h2>Mes réseaux</h2>
+                <div class="logo">
+                    <a href="https://www.linkedin.com/in/johanis-fran%C3%A7oise/"><img src="img/linkedin.png" alt="Logo linkedin"></a>
+                    <a href="https://github.com/johanis074"><img src="img/github.png" alt="Logo github"></a>
+                </div>
+            </article>
+        </section>
+    
+        <section class="buttons">
+            <!-- Boutons Suivant et Précédent -->
+            <button id="prevButton" disabled>Précédent</button>
+            <button id="nextButton">Suivant</button>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>Create by Johanis</li>
+            <li>Mention Légal</li>
+            <li>2024 tous droits réservés</li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
